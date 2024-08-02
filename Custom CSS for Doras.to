@@ -1,0 +1,158 @@
+/* This is the Custom CSS made for LuckyLootTube's Doras.to Profile page https://profile.luckyloottube.com/ */
+/* I've spent some time on it so for the sake of saving your time and because I believe that share is care, you can just copy the following Custom CSS, edit it and use it on your Doras.to Profile page. */
+
+
+
+/* Define keyframes for a very subtle wobble animation */
+@keyframes gentle-wobble {
+  0% { transform: translateX(0); }
+  15% { transform: translateX(-0.5px) rotate(-0.1deg); }
+  30% { transform: translateX(0.4px) rotate(0.1deg); }
+  45% { transform: translateX(-0.3px) rotate(-0.05deg); }
+  60% { transform: translateX(0.2px) rotate(0.05deg); }
+  75% { transform: translateX(-0.1px); }
+  100% { transform: translateX(0); }
+}
+
+/* Define keyframes for a gentle hover effect with scaling */
+@keyframes gentle-hover {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); } /* Slight scaling */
+  100% { transform: scale(1); }
+}
+
+/* Apply the gentle wobble animation to the profile picture */
+#profile-picture {
+  animation: gentle-wobble 3s infinite; /* Slower and more subtle wobble */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Apply gentle wobble and color transitions to the button */
+button#block {
+  animation: gentle-wobble 3s infinite;
+  transition: all 0.3s ease; /* Smooth transition */
+  background-color: #0A1236; /* Original button color */
+  color: #ebbc3c; /* Original text color */
+  border: none; /* Ensure no border for visual clarity */
+}
+
+/* Apply gentle wobble and color transitions to the email button */
+#email-block {
+  animation: gentle-wobble 3s infinite;
+  transition: all 0.3s ease; /* Smooth transition */
+  background-color: #0A1236; /* Original button color */
+  color: #ebbc3c; /* Original text color */
+  border: none; /* Ensure no border for visual clarity */
+}
+
+/* Apply a subtle hover effect with scaling, and invert colors on hover for buttons */
+button#block:hover {
+  animation: gentle-hover 0.6s infinite; /* Subtle scaling effect on hover */
+  background-color: #ebbc3c; /* Inverted button color */
+  color: #0A1236; /* Inverted text color */
+}
+
+/* Apply a subtle hover effect with scaling, and invert colors on hover for email button */
+#email-block:hover {
+  animation: gentle-hover 0.6s infinite; /* Subtle scaling effect on hover */
+  background-color: #ebbc3c; /* Inverted button color */
+  color: #0A1236; /* Inverted text color */
+}
+
+/* Apply a subtle hover effect with scaling, and invert colors on hover for multi link blocks */
+#multiLinkButton:hover {
+  animation: gentle-hover 0.6s infinite; /* Subtle scaling effect on hover */
+  background-color: #ebbc3c; /* Inverted button color */
+  color: #0A1236; /* Inverted text color */
+}
+
+/* Define keyframes for a gentle zoom-in and zoom-out animation */
+@keyframes gentle-zoom {
+  0% { transform: scale(0.9); }  /* 10% smaller */
+  50% { transform: scale(1.1); } /* 10% larger */
+  100% { transform: scale(0.9); } /* Back to 10% smaller */
+}
+
+/* Apply the gentle zoom animation to the uploaded image */
+#uploaded-image {
+  animation: gentle-zoom 5s infinite ease-in-out; /* Smooth zoom in and out */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+/* Define keyframes for a gentle zoom-in and zoom-out animation */
+@keyframes gentle-zoom {
+  0% { transform: scale(0.99); }  /* 10% smaller */
+  50% { transform: scale(1.01); } /* 10% larger */
+  100% { transform: scale(0.99); } /* Back to 10% smaller */
+}
+
+/* Apply the gentle zoom animation to the rich text boxes */
+.richText {
+  animation: gentle-zoom 5s infinite ease-in-out; /* Smooth zoom in and out */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+/* Apply the gentle zoom animation to the title stringed text */
+#profile-heading {
+  animation: gentle-zoom 5s infinite ease-in-out; /* Smooth zoom in and out */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+/* Define keyframes for a gentle fading animation */
+@keyframes fade {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Apply the infinite fading effect to the block icon */
+#block-icon {
+  animation: fade 8s infinite;
+}
+
+/* Define keyframes for a subtle zoom-in and zoom-out animation */
+@keyframes subtle-zoom {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); } /* Zoom in slightly */
+  100% { transform: scale(1); }
+}
+
+/* Apply hover effect to the carousel arrows */
+button.inline-flex.items-center.justify-center.whitespace-nowrap.text-sm.font-medium.transition-colors.focus-visible\:outline-none.focus-visible\:ring-1.focus-visible\:ring-ring.disabled\:pointer-events-none.disabled\:opacity-20.border.bg-transparent.shadow-sm.hover\:bg-accent.hover\:text-accent-foreground.absolute.h-8.w-8.rounded-full.-right-2.top-1\/2.-translate-y-1\/2.hover\:scale-105 {
+  transition: all 0.3s ease; /* Smooth transition */
+  background: rgb(10, 18, 54);
+  color: rgb(233, 189, 69);
+  border: 0px;
+}
+
+button.inline-flex.items-center.justify-center.whitespace-nowrap.text-sm.font-medium.transition-colors.focus-visible\:outline-none.focus-visible\:ring-1.focus-visible\:ring-ring.disabled\:pointer-events-none.disabled\:opacity-20.border.bg-transparent.shadow-sm.hover\:bg-accent.hover\:text-accent-foreground.absolute.h-8.w-8.rounded-full.-right-2.top-1\/2.-translate-y-1\/2.hover\:scale-105:hover {
+  background-color: #ebbc3c; /* Change background color on hover */
+  color: #0A1236; /* Change text color on hover */
+}
+
+/* Apply hover effect to the SVG path within the button */
+button.inline-flex.items-center.justify-center.whitespace-nowrap.text-sm.font-medium.transition-colors.focus-visible\:outline-none.focus-visible\:ring-1.focus-visible\:ring-ring.disabled\:pointer-events-none.disabled\:opacity-20.border.bg-transparent.shadow-sm.hover\:bg-accent.hover\:text-accent-foreground.absolute.h-8.w-8.rounded-full.-right-2.top-1\/2.-translate-y-1\/2.hover\:scale-105:hover path {
+  fill: #0A1236; /* Change arrow color on hover */
+}
+
+/* Common styles for both next and previous buttons */
+button.inline-flex.items-center.justify-center.whitespace-nowrap.text-sm.font-medium.transition-colors.focus-visible\:outline-none.focus-visible\:ring-1.focus-visible\:ring-ring.disabled\:pointer-events-none.disabled\:opacity-20.border.bg-transparent.shadow-sm.hover\:bg-accent.hover\:text-accent-foreground.absolute.h-8.w-8.rounded-full.-right-2.top-1\/2.-translate-y-1\/2.hover\:scale-105,
+button.inline-flex.items-center.justify-center.whitespace-nowrap.text-sm.font-medium.transition-colors.focus-visible\:outline-none.focus-visible\:ring-1.focus-visible\:ring-ring.disabled\:pointer-events-none.disabled\:opacity-20.border.bg-transparent.shadow-sm.hover\:bg-accent.hover\:text-accent-foreground.absolute.h-8.w-8.rounded-full.-left-2.top-1\/2.-translate-y-1\/2.hover\:scale-105 {
+  transition: all 0.3s ease; /* Smooth transition */
+  background: rgb(10, 18, 54);
+  color: rgb(233, 189, 69);
+  border: 0px;
+}
+
+/* Hover effect for both next and previous buttons */
+button.inline-flex.items-center.justify-center.whitespace-nowrap.text-sm.font-medium.transition-colors.focus-visible\:outline-none.focus-visible\:ring-1.focus-visible\:ring-ring.disabled\:pointer-events-none.disabled\:opacity-20.border.bg-transparent.shadow-sm.hover\:bg-accent.hover\:text-accent-foreground.absolute.h-8.w-8.rounded-full.-right-2.top-1\/2.-translate-y-1\/2.hover\:scale-105:hover,
+button.inline-flex.items-center.justify-center.whitespace-nowrap.text-sm.font-medium.transition-colors.focus-visible\:outline-none.focus-visible\:ring-1.focus-visible\:ring-ring.disabled\:pointer-events-none.disabled\:opacity-20.border.bg-transparent.shadow-sm.hover\:bg-accent.hover\:text-accent-foreground.absolute.h-8.w-8.rounded-full.-left-2.top-1\/2.-translate-y-1\/2.hover\:scale-105:hover {
+  background-color: #ebbc3c; /* Change background color on hover */
+  color: #0A1236; /* Change text color on hover */
+}
+
+/* Apply hover effect to the SVG paths within the buttons */
+button.inline-flex.items-center.justify-center.whitespace-nowrap.text-sm.font-medium.transition-colors.focus-visible\:outline-none.focus-visible\:ring-1.focus-visible\:ring-ring.disabled\:pointer-events-none.disabled\:opacity-20.border.bg-transparent.shadow-sm.hover\:bg-accent.hover\:text-accent-foreground.absolute.h-8.w-8.rounded-full.-right-2.top-1\/2.-translate-y-1\/2.hover\:scale-105:hover path,
+button.inline-flex.items-center.justify-center.whitespace-nowrap.text-sm.font-medium.transition-colors.focus-visible\:outline-none.focus-visible\:ring-1.focus-visible\:ring-ring.disabled\:pointer-events-none.disabled\:opacity-20.border.bg-transparent.shadow-sm.hover\:bg-accent.hover\:text-accent-foreground.absolute.h-8.w-8.rounded-full.-left-2.top-1\/2.-translate-y-1\/2.hover\:scale-105:hover path {
+  fill: #0A1236; /* Change arrow color on hover */
+}
