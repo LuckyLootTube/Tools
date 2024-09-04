@@ -8,6 +8,7 @@
 
 
 
+
 /* Define keyframes for a very subtle wobble animation */
 @keyframes gentle-wobble {
   0% { transform: translateX(0); }
@@ -95,16 +96,12 @@ button#block:hover {
 .richText {
   animation: gentle-zoom 5s infinite ease-in-out; /* Smooth zoom in and out */
   transition: transform 0.3s ease; /* Smooth transition */
-    text-shadow: 6px 6px 0px rgba(0,0,0,0.1);
-  background-color: rgb(10 18 54 / 15%); /* Box blur effect */
 }
 
 /* Apply the gentle zoom animation to the title stringed text */
 #profile-heading {
   animation: gentle-zoom 5s infinite ease-in-out; /* Smooth zoom in and out */
   transition: transform 0.3s ease; /* Smooth transition */
-    text-shadow: 6px 6px 0px rgba(0,0,0,0.1);
-    background-color: rgb(10 18 54 / 15%); /* Box blur effect */
 }
 
 #items {
