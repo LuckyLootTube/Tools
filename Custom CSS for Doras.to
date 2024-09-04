@@ -1,5 +1,10 @@
-/* This is the Custom CSS made for LuckyLootTube's Doras.to Profile page https://profile.luckyloottube.com/ */
+/* This is the Custom CSS made for LuckyLootTube's Doras.to Profile Page https://doras.to/luckyloottube */
 /* I've spent some time on it so for the sake of saving your time and because I believe that share is care, you can just copy the following Custom CSS, edit it and use it on your Doras.to Profile page. */
+
+/* 3 */
+/* 2 */
+/* 1 */
+/* GO! */
 
 
 
@@ -90,12 +95,21 @@ button#block:hover {
 .richText {
   animation: gentle-zoom 5s infinite ease-in-out; /* Smooth zoom in and out */
   transition: transform 0.3s ease; /* Smooth transition */
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.1);
+  background-color: rgb(10 18 54 / 15%); /* Box blur effect */
 }
 
 /* Apply the gentle zoom animation to the title stringed text */
 #profile-heading {
   animation: gentle-zoom 5s infinite ease-in-out; /* Smooth zoom in and out */
   transition: transform 0.3s ease; /* Smooth transition */
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.1);
+    background-color: rgb(10 18 54 / 15%); /* Box blur effect */
+}
+
+#items {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.1);
+    background-color: rgb(10 18 54 / 15%); /* Box blur effect */
 }
 
 /* Define keyframes for a gentle fading animation */
