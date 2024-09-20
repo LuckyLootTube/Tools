@@ -12,7 +12,7 @@
 
 <h3 align="center">Website https://luckyloottube.me</h3>
 
-![My Discord](https://discord-readme-badge.vercel.app/api?id=<1092155990461382758>)
+![My Discord](https://discord-readme-badge.vercel.app/api?id=1092155990461382758)
 
 </div>
 
