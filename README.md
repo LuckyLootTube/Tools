@@ -24,41 +24,6 @@
 
   </div>
 </details>
-
-
-<details open>
-  <summary>Discord Status</summary>
-  <div>
-    <a href="https://discord.com/users/1092155990461382758" target="_blank">
-      <img src="https://oyepriyansh.pages.dev/9d5grh" width="355px">
-    </a> <br>
+![My Discord](https://discord-readme-badge.vercel.app/api?id=<1092155990461382758>)
   </div>
-</details><details open>
-  <summary>GitHub Stats</summary>
-
-  <a href="#"><img src="github_stats.svg" width="355px"></a><br>
-
 </details>
-
-
-<details open>
-  <summary>Recent Activity</summary>
-
-<!--RECENT_ACTIVITY:start-->
-![added_member](https://oyepriyansh.pages.dev/i/octicons/People.svg) [oyepriyansh/.well-known](https://github.com/oyepriyansh/.well-known)<br>
-![fork_repo](https://oyepriyansh.pages.dev/i/octicons/ForkedRepository.svg) [oyepriyansh/cms](https://github.com/oyepriyansh/cms) **|** [code100x/cms](https://github.com/code100x/cms)<br>
-![pr_merged](https://oyepriyansh.pages.dev/i/octicons/PullRequestMerged.svg) [#260](https://github.com/oyepriyansh/DevProfiles/pull/260) **|** [oyepriyansh/DevProfiles](https://github.com/oyepriyansh/DevProfiles)<br>
-![pr_merged](https://oyepriyansh.pages.dev/i/octicons/PullRequestMerged.svg) [#259](https://github.com/oyepriyansh/DevProfiles/pull/259) **|** [oyepriyansh/DevProfiles](https://github.com/oyepriyansh/DevProfiles)<br>
-![added_member](https://oyepriyansh.pages.dev/i/octicons/People.svg) [oyepriyansh/blog](https://github.com/oyepriyansh/blog)<br>
-![fork_repo](https://oyepriyansh.pages.dev/i/octicons/ForkedRepository.svg) [oyepriyansh/staticman](https://github.com/oyepriyansh/staticman) **|** [eduardoboucas/staticman](https://github.com/eduardoboucas/staticman)<br>
-![create_repo](https://oyepriyansh.pages.dev/i/octicons/Repository.svg) [oyepriyansh/blog](https://github.com/oyepriyansh/blog)<br>
-![pr_merged](https://oyepriyansh.pages.dev/i/octicons/PullRequestMerged.svg) [#258](https://github.com/oyepriyansh/DevProfiles/pull/258) **|** [oyepriyansh/DevProfiles](https://github.com/oyepriyansh/DevProfiles)<br>
-![pr_merged](https://oyepriyansh.pages.dev/i/octicons/PullRequestMerged.svg) [#1](https://github.com/oyepriyansh/blog/pull/1) **|** [oyepriyansh/blog](https://github.com/oyepriyansh/blog)<br>
-![create_repo](https://oyepriyansh.pages.dev/i/octicons/Repository.svg) [oyepriyansh/blog](https://github.com/oyepriyansh/blog)<br>
-<!--RECENT_ACTIVITY:end-->
-
-</details>
-
-</details>
-  <a href="#"><img src="assets/pokeball-bottom.png" width="370px" height="170px"></a>
-</div>
