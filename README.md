@@ -12,6 +12,8 @@
 
 <h3 align="center">Website https://luckyloottube.me</h3>
 
+![My Discord](https://discord-readme-badge.vercel.app/api?id=<1092155990461382758>)
+
 </div>
 
 <p align="center">
@@ -20,10 +22,3 @@
 <a href="https://fb.com/groups/luckyloottube" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="groups/luckyloottube" height="30" width="40" /></a>
 <a href="https://instagram.com/luckyloottube" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="luckyloottube" height="30" width="40" /></a>
 </p>
-
-
-  </div>
-</details>
-![My Discord](https://discord-readme-badge.vercel.app/api?id=<1092155990461382758>)
-  </div>
-</details>
