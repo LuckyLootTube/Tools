@@ -1,0 +1,128 @@
+/* Import Ubuntu Bold (weight 700) from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700;900&display=swap');
+
+/* Define keyframes for a dynamic, pulsating glow effect.
+   The glow is created by three layers of text-shadow that change at multiple stops. */
+@keyframes pulsate {
+  0%, 100% {
+    text-shadow:
+      0 0 2px var(--glow-color),
+      0 0 4px var(--glow-color),
+      0 0 6px var(--glow-color);
+  }
+  25% {
+    text-shadow:
+      0 0 4px var(--glow-color),
+      0 0 8px var(--glow-color),
+      0 0 12px var(--glow-color);
+  }
+  50% {
+    text-shadow:
+      0 0 6px var(--glow-color),
+      0 0 12px var(--glow-color),
+      0 0 18px var(--glow-color);
+  }
+  75% {
+    text-shadow:
+      0 0 4px var(--glow-color),
+      0 0 8px var(--glow-color),
+      0 0 12px var(--glow-color);
+  }
+}
+
+/* Chat box settings */
+#chat_box {
+    letter-spacing: 0;
+    /* Apply a mask that fades out only the top 10% of the container.
+       "black" in the mask means opaque (fully visible), and "transparent" means invisible.
+       The bottom remains fully opaque from 10% to 100%. */
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 100%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 100%);
+  }  
+
+  .chat_line .badge,
+  .chat_line img.badge {
+    vertical-align: middle;
+    margin-top: -2px; /* adjust the value as needed */
+  }  
+
+/* Chat line styling with Ubuntu Bold */
+/* Main text (other than usernames) is fixed at 17px (as per your final version) */
+.chat_line {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;  /* Increased from 800 to 900 for a bolder appearance */
+    color: #000000;
+    font-size: 17px !important;
+    padding: 12px;
+    margin: 6px 6px;        /* Increased vertical spacing */
+    border-radius: 8px;
+    line-height: 1.2;        /* More space between text lines in a message */
+  }
+
+/* Cycle pastel background colors for each chat line.
+   These rules assign a different background color in a loop:
+   1st: #adb2fb, 2nd: #afeff9, 3rd: #f9a7a7, 4th: #c0f4b8, 5th: #f6f6b3 */
+.chat_line:nth-child(5n+1) {
+  background-color: #adb2fbb9 !important;
+}
+.chat_line:nth-child(5n+2) {
+  background-color: #afeff9bb !important;
+}
+.chat_line:nth-child(5n+3) {
+  background-color: #f9a7a7b7 !important;
+}
+.chat_line:nth-child(5n+4) {
+  background-color: #c0f4b8b2 !important;
+}
+.chat_line:nth-child(5n+5) {
+  background-color: #f6f6b3b9 !important;
+}
+
+/* --- Cycle Nickname Glow Colors ---
+   All nicknames have a base text color of #0A1236 and a pulsating glow effect.
+   Each variant sets its own custom glow color via the --glow-color property. */
+
+/* Variant 1: Refined Golden Glow */
+.chat_line:nth-child(5n+1) .nick {
+  color: #0A1236 !important;
+  --glow-color: rgba(241,211,41,0.5);
+}
+
+/* Variant 2: Refined Crimson Glow */
+.chat_line:nth-child(5n+2) .nick {
+  color: #0A1236 !important;
+  --glow-color: rgba(236,59,59,0.5);
+}
+
+/* Variant 3: Refined Emerald Glow */
+.chat_line:nth-child(5n+3) .nick {
+  color: #0A1236 !important;
+  --glow-color: rgba(25,201,104,0.5);
+}
+
+/* Variant 4: Refined Sapphire Glow */
+.chat_line:nth-child(5n+4) .nick {
+  color: #0A1236 !important;
+  --glow-color: rgba(38,105,230,0.5);
+}
+
+/* Variant 5: Refined Violet Glow */
+.chat_line:nth-child(5n+5) .nick {
+  color: #0A1236 !important;
+  --glow-color: rgba(200,63,235,0.5);
+}
+
+/* Apply the pulsating animation and set username font size to 19px */
+.chat_line .nick {
+  font-size: 20px !important;
+  font-weight: 900;
+  animation: pulsate 3s infinite ease-in-out;
+}
+
+.message { 
+  display: inline !important; 
+}
+
+.highlight { 
+  background-color: rgba(255,255,0,0.5) !important; 
+}
