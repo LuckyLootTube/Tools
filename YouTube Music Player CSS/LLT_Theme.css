@@ -94,6 +94,21 @@ a {
 }
 
 
+/* Playlist Play Button */
+.content-wrapper.ytmusic-play-button-renderer {
+    background-color: #fa6d47 !important;
+    border-radius: 50px !important;
+    box-shadow: 0 0 8px 2px rgba(235, 188, 60, 0.6) !important;
+}
+
+
+/* Playlist edit button */
+.yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--touch-response-inverse {
+    background-color: #ebbc3c7b !important;
+    box-shadow: 0 0 8px 2px rgba(250, 109, 71, 0.6) !important;
+}
+
+
 /* Left controls */ 
 /* Play-pause button */
 #play-pause-button {
