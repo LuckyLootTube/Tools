@@ -54,7 +54,7 @@ ytmusic-button-renderer:hover,
 a {
     color: #ebbc3c !important;
     background-color: #33333300 !important;
-    border: 1px solid #55555500 !important;
+    border: 0px solid #55555500 !important;
   }
 
 
@@ -75,37 +75,6 @@ a {
     background-color: rgba(255, 0, 0, 1) !important;
     transition-duration: 0.4 !important;
     transform: scale(1.1) !important;
-}
-
-
-/* Misc right-side buttons */
-.volume, .repeat, .shuffle {
-    transition-duration: 0.4s !important;
-}
-.volume:hover, .repeat:hover, .shuffle:hover {
-    background-color: #383838;
-    border-radius: 50px;
-}
-.volume:active, .repeat:active, .shuffle:active {
-    transform: scale(1.05);
-}
-#sliderKnob {
-    cursor: pointer;
-} 
-
-
-
-
-
-/* Hide the volume slider by default */
-.volume {  /* Adjust this selector to match the slider element */
-    opacity: 0;
-    transition: opacity 0.4s;
-}
-
-/* Show the slider when hovering over the volume container */
-.volume:hover .volume {
-    opacity: 1;
 }
 
 
