@@ -1,0 +1,156 @@
+/**
+ * > From LuckyLootTube with love.
+ * 
+ * > Made for (https://ytmdesktop.app/), but will most likely work with any Youtube Music client.
+ * 
+ * > https://luckyloottube.com/
+ * 
+ * > https://www.twitch.tv/luckyloottube
+ **/
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+
+html, body, * {
+  font-family: 'Ubuntu', sans-serif !important;
+  color: #ebbc3c !important;
+}
+
+.ytmusic-player-page,
+.ytmusic-player-page ::shadow * {
+  font-family: 'Ubuntu', sans-serif !important;
+  color: beige !important;
+}
+
+
+/* Re-design all the button-like elements */
+paper-button,
+ytmusic-button-renderer,
+.ytmusic-button-renderer,
+.ytmusic-chip-cloud-chip-renderer,
+.ytmusic-pivot-bar-item-renderer {
+  background-color: #303030 !important; /* or #2D2D2D, etc. */
+  color: beige !important;
+
+
+/* Optionally add border, hover, etc.: */
+  border: 1px solid #55555500 !important;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+/* Universal Anchor Selector - HEADER (SIGN-IN)*/
+paper-button:hover,
+ytmusic-button-renderer:hover,
+.ytmusic-button-renderer:hover,
+.ytmusic-chip-cloud-chip-renderer:hover,
+.ytmusic-pivot-bar-item-renderer:hover {
+  background-color: #44444400 !important;
+}
+
+a {
+    color: #ebbc3c !important;
+    background-color: #33333300 !important;
+    border: 1px solid #55555500 !important;
+  }
+
+
+/* Right controls */
+/* show-currently-playing button */
+.toggle-player-page-button  {
+    border-radius: 60px;
+    width: 55px !important;
+    height: 55px !important;
+    transition-duration: 0.4s !important;
+}
+.toggle-player-page-button > * {
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 60px;
+    transition-duration: 0.4 !important;
+}
+.toggle-player-page-button:hover > * {
+    background-color: rgba(255, 0, 0, 1) !important;
+    transition-duration: 0.4 !important;
+    transform: scale(1.1) !important;
+}
+
+
+/* Misc right-side buttons */
+.volume, .repeat, .shuffle {
+    transition-duration: 0.4s !important;
+}
+.volume:hover, .repeat:hover, .shuffle:hover {
+    background-color: #383838;
+    border-radius: 50px;
+}
+.volume:active, .repeat:active, .shuffle:active {
+    transform: scale(1.05);
+}
+#sliderKnob {
+    cursor: pointer;
+}
+
+
+/* Left controls */ 
+/* Play-pause button */
+#play-pause-button {
+    border-radius: 50px;
+    background-color: red;
+    transition-duration: 0.4s !important;
+}
+
+#play-pause-button:hover, .previous-button:hover, .next-button:hover {
+    transform: scale(1.1) !important;
+}
+
+#play-pause-button:active, .previous-button:active, .next-button:active {
+    transform: scale(0.95) !important;
+}
+
+
+/* <- & -> buttons */
+.previous-button, .next-button{
+    transition-duration: 0.4s !important;
+    background-color: rgba(255,0,0,0.6);
+    border-radius: 50px;
+}
+
+
+/* Repositioning music controls */
+#left-controls {
+    margin-left: 1vw !important;
+}
+
+
+/* Like, dislike & menu */
+.dislike {
+    margin-right: -5px !important;
+    margin-left:  25px !important;
+}
+.dislike, .like, .menu>* {
+    transition-duration: 0.07s;
+    border-radius: 7px;
+}
+.dislike:hover{
+    color: tomato;
+}
+.like:hover{
+    color: rgb(51, 153, 51);
+}
+
+
+
+
+
+/**
+ * > From LuckyLootTube with love.
+ * 
+ * > Made for (https://ytmdesktop.app/), but will most likely work with any Youtube Music client.
+ * 
+ * > https://luckyloottube.com/
+ * 
+ * > https://www.twitch.tv/luckyloottube
+ **/
