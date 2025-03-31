@@ -91,7 +91,25 @@ a {
 }
 #sliderKnob {
     cursor: pointer;
+} 
+
+
+
+
+
+/* Hide the volume slider by default */
+.volume {  /* Adjust this selector to match the slider element */
+    opacity: 0;
+    transition: opacity 0.4s;
 }
+
+/* Show the slider when hovering over the volume container */
+.volume:hover .volume {
+    opacity: 1;
+}
+
+
+
 
 
 /* Playlist Play Button */
